@@ -12,17 +12,19 @@ Rapid Application Development".
 ## 1. Softwarepaket 
 Dieses Repository enthält die im Rahmen der Bachelorarbeit entwickelten
 Software-Artefakte zur prototypischen Umsetzung des Anerkennungsprozesses in
-yuuvis® RAD (Version 10.12.2). Es handelt sich nicht um eine eigenständig
-lauffähige Anwendung, sondern um Skripte, Vorlagen und Prozessmodelle, die
-innerhalb der yuuvis®-RAD-Plattform konfiguriert und ausgeführt werden.
+yuuvis® RAD (Version 10.12.2). Es handelt sich nicht um eine eigenständig lauffähige
+Anwendung, sondern um Skripte, die innerhalb der yuuvis®-RAD-Plattform in
+Prozessen und Formularen ausgeführt werden.
 
 Bestandteile:
 - Serverseitige Prozessskripte (BPM Scripting API, JavaScript): Bedingungen
   (Schleife, Startbedingungen) und Statusfortschreibung.
 - Clientseitiges Formularskript (JavaScript): Präzedenzfallsuche am Objekttyp
   Fremdmodul.
-- Word-Vorlagen (.docx): ASL-Blatt und Anrechnungsprotokoll.
-- Prozessmodelle (.bpmdef): Anerkennungsprozess und Stellungnahme-Prozess.
+  
+Die zugehörigen Word-Vorlagen und Prozessmodelle sind nicht Bestandteil dieses
+Repositories; sie sind der Bachelorarbeit als Anhang bzw. als Abbildungen
+beigefügt.
 
 Programmiersprache: JavaScript (yuuvis®-RAD-Skripting). Sprache der Kommentare
 und Bezeichner: Deutsch/Englisch.
@@ -37,13 +39,11 @@ Lizenz: siehe Datei LICENSE (MIT-Lizenz).
 Entwicklung im Zeitraum Juni-August 2026.
 
 ## 4. Formate und Größe
-.js (Skripte), .docx (Vorlagen), .bpmdef (Prozessmodelle);
+.js (Skripte)
 Gesamtgröße < [X] MB.
 
 ## 5. Werkzeuge
 - yuuvis® RAD 10.12.2 – designer, management-studio, client.
-- Microsoft Word mit yuuvis® RAD Vorlagen-Editor (Add-in) zur Erstellung der
-  Dokumentvorlagen.
 
 ## 6. Einbindung der Artefakte
 - skripte/bedingungen.js – Schleifenbedingung der „Vollständigkeitsprüfung"
@@ -55,8 +55,6 @@ Gesamtgröße < [X] MB.
   Aktivitäten (Statusfortschreibung).
 - skripte/praezedenzfallsuche.js – Formularskript am Objekttyp Fremdmodul
   (Situationen Anlegen/Bearbeiten).
-Die Vorlagen werden im client als Objekt vom Typ „Vorlage" hochgeladen, die
-Prozessmodelle im management-studio aktiviert.
 
 ## 7. Qualitätssicherung
 Der Prototyp wurde anhand von sechs Anwendungsfällen validiert (vgl. Kapitel 6.3
@@ -67,4 +65,4 @@ Das Repository enthält keine personenbezogenen oder sensiblen Echtdaten, für
 Tests wurden ausschließlich fiktive Daten verwendet.
 
 ## 9. Ablageort
-Repository: [GitHub-URL]. Ordnerstruktur: skripte/, vorlagen/, prozessmodelle/.
+Repository: [GitHub-URL]. Ordnerstruktur: skripte/.
