@@ -40,7 +40,7 @@ Entwicklung im Zeitraum Juni-August 2026.
 
 ## 4. Formate und Größe
 .js (Skripte)
-Gesamtgröße < [X] MB.
+Gesamtgröße < 1 MB.
 
 ## 5. Werkzeuge
 - yuuvis® RAD 10.12.2 – designer, management-studio, client.
