@@ -65,4 +65,4 @@ Das Repository enthält keine personenbezogenen oder sensiblen Echtdaten, für
 Tests wurden ausschließlich fiktive Daten verwendet.
 
 ## 9. Ablageort
-Repository: [GitHub-URL]. Ordnerstruktur: skripte/.
+Repository: (https://github.com/r1efre/ba-anerkennung-studienleistungen-skripte). Ordnerstruktur: skripte/.
